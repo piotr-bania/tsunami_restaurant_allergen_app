@@ -1,13 +1,18 @@
+// ------------------------------ Imports ------------------------------
+
+
+
 // ------------------------------ Variables ------------------------------
 
 $primary: #e7b46c;
-$header: #0B2344;
-$text: #15407C;
-$background-darker: #C6DAF5;
-$background-main: #E3ECFA;
-$background-white: #FFFFFF;
+$header: #313649;
+$text: #646F93;
+$text-faded: #ACB4D1;
+$background-darker: #F0F1F8;
+$background-main: #F7F7FA;
+$background-white: #FCFCFC;
 $link: #397DDD;
-$link-hover: #5590E2;
+$blue: #2757FF;
 $green: #88E86D;
 $yellow: #E8DF6D;
 $red: #E8766D;
@@ -24,28 +29,29 @@ $red: #E8766D;
 
 html {
     box-sizing: inherit;
-    scroll-behavior: smooth;
     margin: auto;
 }
 
 body {
     background-color: $background-main;
     color: $text;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+    font-family: articulat-cf, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 40px;
+    margin: auto;
 }
 
 // ------------------------------ Fonts ------------------------------
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: $header;
+    font-family: articulat-cf, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 p {
@@ -56,20 +62,220 @@ li {
     color: $link;
     text-transform: uppercase;
     cursor: pointer;
-
-    a {
-        transition: all 0.5s ease-in-out;
-
-        &:hover {
-            color: $link-hover;
-        }
-    }
 }
 
 // ------------------------------ Images ------------------------------
 
-.logo {
-    background: url(/src/assets/logo.svg);
+.celery {
+    background: url(/src/assets/celery.jpg);
+}
+
+.gluten {
+    background: url(/src/assets/wheat.jpg);
+}
+
+.crustaceans {
+    background: url(/src/assets/crab.jpg);
+}
+
+.eggs {
+    background: url(/src/assets/eggs.jpg);
+}
+
+.fish {
+    background: url(/src/assets/fish.jpg);
+}
+
+.lupin {
+    background: url(/src/assets/lupin.jpg);
+}
+
+.milk {
+    background: url(/src/assets/milk.jpg);
+}
+
+.mollusc {
+    background: url(/src/assets/mollusc.jpg);
+}
+
+.mustard {
+    background: url(/src/assets/mustard.jpg);
+}
+
+.nuts {
+    background: url(/src/assets/nuts.jpg);
+}
+
+.peanuts {
+    background: url(/src/assets/peanuts.jpg);
+}
+
+.sesame {
+    background: url(/src/assets/sesame.jpg);
+}
+
+.soya {
+    background: url(/src/assets/soya.jpg);
+}
+
+.sulphur {
+    background: url(/src/assets/sulphur.jpg);
+}
+
+.celery,
+.gluten,
+.crustaceans,
+.eggs,
+.fish,
+.lupin,
+.milk,
+.mollusc,
+.mustard,
+.nuts,
+.peanuts,
+.sesame,
+.soya,
+.sulphur {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 50px;
     width: 50px;
+}
+
+// ------------------------------ Header ------------------------------
+
+.header,
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title {
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.fadedText {
+    color: $text-faded;
+}
+
+// ------------------------------ Table ------------------------------
+
+table {
+    background: $background-white;
+    border: 30px solid transparent;
+    border-radius: 12px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+th .image {
+    height: 100%;
+}
+
+td,
+p {
+    text-transform: uppercase;
+    color: $text;
+    font-size: 0.7rem;
+}
+
+th {
+    border-radius: 9px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+td,
+th {
+    border: 10px solid transparent;
+    text-align: center;
+    padding: 5px;
+}
+
+// tr:nth-child(even) {
+//     background-color: $background-darker;
+// }
+
+// tr:nth-child(odd) {
+//     background-color: $background-white;
+// }
+
+.titleTable {
+    text-transform: uppercase;
+}
+
+.itemName {
+    color: $link;
+    padding: 5px;
+
+    input {
+        width: 100%;
+        padding: 5px;
+        color: $text;
+        font-family: source-sans-pro, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-style: normal;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            background: $background-main;
+            border: 1px solid $link;
+        }
+    }
+}
+
+// ------------------------------ Checkbox ------------------------------
+
+.container {
+    position: absolute;
+    font-size: 1.3rem;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: $background-white;
+    border: 1px solid $background-darker;
+    border-radius: 3px;
+    transition: all 0.4s ease-in-out;
+}
+
+.container input:checked~.checkmark {
+    background-color: $green;
+}
+
+.checkmark:after {
+    content: "✔";
+    color: $background-white;
+    position: absolute;
+    left: 4px;
+    top: -3px;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+    box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.1);
 }

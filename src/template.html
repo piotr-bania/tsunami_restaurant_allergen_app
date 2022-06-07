@@ -6,16 +6,266 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Title -->
     <title><%= htmlWebpackPlugin.options.title %>></title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/jtb2awc.css">
 </head>
 
 <body>
-    <object class="logo"></object>
+    <div class="header">
+        <h1 class="title">Dishes and their allergen content</h2>
+        <h3 class="fadedText">(Note - Please state the name of the cereal(s) containing gluten** in that column
+            AND/OR the name of the
+            nut(s)* in that column)</h3>
+    </div>
+    <table>
+        <tr>
+            <th>
+                <h2 class="titleTable">Dishes</h2>
+            </th>
+            <th class="image"><object class="celery"></object></th>
+            <th class="image"><object class="gluten"></object></th>
+            <th class="image"><object class="crustaceans"></object></th>
+            <th class="image"><object class="eggs"></object></th>
+            <th class="image"><object class="fish"></object></th>
+            <th class="image"><object class="lupin"></object></th>
+            <th class="image"><object class="milk"></object></th>
+            <th class="image"><object class="mollusc"></object></th>
+            <th class="image"><object class="mustard"></object></th>
+            <th class="image"><object class="nuts"></object></th>
+            <th class="image"><object class="peanuts"></object></th>
+            <th class="image"><object class="sesame"></object></th>
+            <th class="image"><object class="soya"></object></th>
+            <th class="image"><object class="sulphur"></object></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>celery</td>
+            <td>gluten</td>
+            <td>crustaceans</td>
+            <td>eggs</td>
+            <td>fish</td>
+            <td>lupin</td>
+            <td>milk</td>
+            <td>mollusc</td>
+            <td>mustard</td>
+            <td>nuts</td>
+            <td>peanuts</td>
+            <td>sesame</td>
+            <td>soya</td>
+            <td>sulphur</td>
+        </tr>
 
-    <h1>Tsunami Restaurant</h1>
-    <h2>Allergen App</h2>
-    <p>Content goes here.</p>
-    <li><a href="#">Link</a></li>
-</body>
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox" checked="checked"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="itemName"><input type="text" placeholder="item name *"></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            <td><label class="container"><input type="checkbox"><span class="checkmark"></span></label></td>
+            </td>
+        </tr>
+
+    </table>
 
 </html>

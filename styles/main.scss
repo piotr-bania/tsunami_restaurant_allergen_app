@@ -1,4 +1,75 @@
+// ------------------------------ Variables ------------------------------
+
+$primary: #e7b46c;
+$header: #0B2344;
+$text: #15407C;
+$background-darker: #C6DAF5;
+$background-main: #E3ECFA;
+$background-white: #FFFFFF;
+$link: #397DDD;
+$link-hover: #5590E2;
+$green: #88E86D;
+$yellow: #E8DF6D;
+$red: #E8766D;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    margin: auto;
+}
+
 body {
-    background: black;
-    color: lightgray;
+    background-color: $background-main;
+    color: $text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+// ------------------------------ Fonts ------------------------------
+
+h1,
+h2,
+h3 {
+    color: $header;
+}
+
+p {
+    color: $text;
+}
+
+li {
+    color: $link;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    a {
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+}
+
+// ------------------------------ Images ------------------------------
+
+.logo {
+    background: url(/src/assets/logo.svg);
+    height: 50px;
+    width: 50px;
 }

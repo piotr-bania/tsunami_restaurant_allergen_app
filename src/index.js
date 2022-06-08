@@ -4,7 +4,7 @@ document.getElementById('download').onclick = function () {
     var element = document.getElementById('tablePDF')
 
     var opt = {
-        margin: 0.05,
+        margin: 0.2,
         filename: 'tsunami_allergen_list.pdf',
         image: {
             type: 'svg | jpg | png',

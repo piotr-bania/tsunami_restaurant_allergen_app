@@ -22,11 +22,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/logo.svg */ "./src/assets/logo.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/celery.png */ "./src/assets/celery.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/gluten.png */ "./src/assets/gluten.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/crustaceans.png */ "./src/assets/crustaceans.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/eggs.png */ "./src/assets/eggs.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fish.png */ "./src/assets/fish.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/lupin.png */ "./src/assets/lupin.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/milk.png */ "./src/assets/milk.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/mollusc.png */ "./src/assets/mollusc.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/mustard.png */ "./src/assets/mustard.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/nuts.png */ "./src/assets/nuts.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/peanuts.png */ "./src/assets/peanuts.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/sesame.png */ "./src/assets/sesame.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/soya.png */ "./src/assets/soya.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/sulphur.png */ "./src/assets/sulphur.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
+var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
+var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
+var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_9___);
+var ___CSS_LOADER_URL_REPLACEMENT_10___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_10___);
+var ___CSS_LOADER_URL_REPLACEMENT_11___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_11___);
+var ___CSS_LOADER_URL_REPLACEMENT_12___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_12___);
+var ___CSS_LOADER_URL_REPLACEMENT_13___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_13___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  scroll-behavior: smooth;\n  margin: auto;\n}\n\nbody {\n  background-color: #E3ECFA;\n  color: #15407C;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  width: 100vw;\n  overflow: hidden;\n}\n\nh1,\nh2,\nh3 {\n  color: #0B2344;\n}\n\np {\n  color: #15407C;\n}\n\nli {\n  color: #397DDD;\n  text-transform: uppercase;\n  cursor: pointer;\n}\nli a {\n  transition: all 0.5s ease-in-out;\n}\nli a:hover {\n  color: #5590E2;\n}\n\n.logo {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  height: 50px;\n  width: 50px;\n}", "",{"version":3,"sources":["webpack://./styles/main.scss"],"names":[],"mappings":"AAcA;;;EAGI,sBAAA;EACA,SAAA;EACA,UAAA;EACA,qBAAA;EACA,gBAAA;AAbJ;;AAgBA;EACI,mBAAA;EACA,uBAAA;EACA,YAAA;AAbJ;;AAgBA;EACI,yBAzBc;EA0Bd,cA5BG;EA6BH,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,YAAA;EACA,gBAAA;AAbJ;;AAkBA;;;EAGI,cA5CK;AA6BT;;AAkBA;EACI,cA/CG;AAgCP;;AAkBA;EACI,cA/CG;EAgDH,yBAAA;EACA,eAAA;AAfJ;AAiBI;EACI,gCAAA;AAfR;AAiBQ;EACI,cAtDC;AAuCb;;AAsBA;EACI,mDAAA;EACA,YAAA;EACA,WAAA;AAnBJ","sourcesContent":["// ------------------------------ Variables ------------------------------\r\n\r\n$primary: #e7b46c;\r\n$header: #0B2344;\r\n$text: #15407C;\r\n$background-darker: #C6DAF5;\r\n$background-main: #E3ECFA;\r\n$background-white: #FFFFFF;\r\n$link: #397DDD;\r\n$link-hover: #5590E2;\r\n$green: #88E86D;\r\n$yellow: #E8DF6D;\r\n$red: #E8766D;\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    scroll-behavior: smooth;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    background-color: $background-main;\r\n    color: $text;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100vh;\r\n    width: 100vw;\r\n    overflow: hidden;\r\n}\r\n\r\n// ------------------------------ Fonts ------------------------------\r\n\r\nh1,\r\nh2,\r\nh3 {\r\n    color: $header;\r\n}\r\n\r\np {\r\n    color: $text;\r\n}\r\n\r\nli {\r\n    color: $link;\r\n    text-transform: uppercase;\r\n    cursor: pointer;\r\n\r\n    a {\r\n        transition: all 0.5s ease-in-out;\r\n\r\n        &:hover {\r\n            color: $link-hover;\r\n        }\r\n    }\r\n}\r\n\r\n// ------------------------------ Images ------------------------------\r\n\r\n.logo {\r\n    background: url(/src/assets/logo.svg);\r\n    height: 50px;\r\n    width: 50px;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  margin: auto;\n}\n\nbody {\n  background-color: #F0F3FF;\n  color: #646F93;\n  font-family: articulat-cf, sans-serif;\n  font-weight: 600;\n  font-style: normal;\n  width: 100%;\n  margin: auto;\n}\n\nh1,\nh2,\nh3,\nh4 {\n  color: #313649;\n  font-family: articulat-cf, sans-serif;\n  font-weight: 700;\n  font-style: normal;\n}\n\np {\n  color: #646F93;\n}\n\nli {\n  color: #2757FF;\n  text-transform: uppercase;\n  cursor: pointer;\n}\n\n.celery {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n.gluten {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.crustaceans {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n.eggs {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n\n.fish {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n}\n\n.lupin {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n}\n\n.milk {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n}\n\n.mollusc {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n\n.mustard {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n}\n\n.nuts {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ");\n}\n\n.peanuts {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_10___ + ");\n}\n\n.sesame {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_11___ + ");\n}\n\n.soya {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_12___ + ");\n}\n\n.sulphur {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_13___ + ");\n}\n\n.celery,\n.gluten,\n.crustaceans,\n.eggs,\n.fish,\n.lupin,\n.milk,\n.mollusc,\n.mustard,\n.nuts,\n.peanuts,\n.sesame,\n.soya,\n.sulphur {\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center;\n  height: 50px;\n  width: 50px;\n}\n\n.header,\n.title {\n  text-align: center;\n  margin-bottom: 5px;\n}\n\n.title {\n  text-transform: capitalize;\n}\n\n.fadedText {\n  color: #FF2957;\n  text-transform: initial;\n  text-align: left;\n  margin-top: 25px;\n}\n\n.signing {\n  text-transform: capitalize;\n  text-align: left;\n  margin-top: 25px;\n}\n\n#download {\n  display: flex;\n  margin: auto;\n  background: #2757FF;\n  color: #FCFCFC;\n  font-family: articulat-cf, sans-serif;\n  font-size: 1rem;\n  margin-top: 10px;\n  padding: 12px 24px 10px 24px;\n  border: none;\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all 0.4s ease-in-out;\n}\n#download:hover {\n  background: #577BFF;\n}\n\n#tablePDF {\n  margin: 5% 0 0 0;\n}\n\ntable {\n  background: #FCFCFC;\n  border: 30px solid transparent;\n  border-radius: 12px;\n  font-family: articulat-cf, sans-serif;\n  border-collapse: collapse;\n  margin: auto;\n  margin-bottom: 25px;\n  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);\n}\n\ntr {\n  border: 5px solid transparent;\n  text-align: center;\n}\n\ntr:nth-child(even) {\n  background-color: #FCFCFC;\n}\n\ntr:nth-child(odd) {\n  background-color: #F7F9FF;\n}\n\ntr td:hover {\n  background: #F0F3FF;\n}\n\nth:nth-child(odd) {\n  background: #FCFCFC;\n}\n\n.image {\n  background: #FCFCFC;\n  height: 50px;\n  width: 50px;\n}\n\n.categoryName {\n  font-size: 0.6rem;\n  padding-bottom: 5px;\n}\n\ntd,\np {\n  text-transform: uppercase;\n  color: #646F93;\n  font-size: 0.7rem;\n}\n\n.titleTable {\n  text-transform: capitalize;\n  text-align: center;\n  width: 100%;\n}\n\n.itemName {\n  color: #2757FF;\n  padding: 5px;\n  width: 15vw;\n}\n.itemName input {\n  text-align: left;\n  width: 100%;\n  padding-left: 5px;\n  color: #646F93;\n  font-family: source-sans-pro, sans-serif;\n  font-size: 1rem;\n  font-weight: 500;\n  font-style: normal;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  transition: all 0.4s ease-in-out;\n}\n.itemName input:hover {\n  background: #F7F9FF;\n  border: 1px solid #2757FF;\n}\n\n.container {\n  position: absolute;\n  font-size: 1.3rem;\n  width: 20px;\n  height: 20px;\n  cursor: pointer;\n  user-select: none;\n}\n\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.checkmark {\n  position: absolute;\n  top: -10px;\n  left: -10px;\n  height: 20px;\n  width: 20px;\n  background-color: #FCFCFC;\n  border: 1px solid #F0F3FF;\n  border-radius: 3px;\n  transition: all 0.4s ease-in-out;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #57FF29;\n  border-radius: 3px;\n}\n\n.checkmark:after {\n  content: \"✔\";\n  color: #FCFCFC;\n  font-size: 1rem;\n  position: absolute;\n  height: 20px;\n  left: 3px;\n  top: -3px;\n  display: none;\n  box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.25);\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n::placeholder {\n  font-size: 1rem;\n  color: #ACB4D1;\n  opacity: 0.5;\n}\n\n.credits {\n  text-align: center;\n  margin: auto;\n}\n.credits p {\n  font-size: 0.8rem;\n}", "",{"version":3,"sources":["webpack://./styles/main.scss"],"names":[],"mappings":"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","sourcesContent":["// ------------------------------ Variables ------------------------------\r\n\r\n$primary: #e7b46c;\r\n$header: #313649;\r\n$text: #646F93;\r\n$text-faded: #ACB4D1;\r\n$background-darker: #F0F3FF;\r\n$background-main: #F7F9FF;\r\n$background-white: #FCFCFC;\r\n$blue: #2757FF;\r\n$green: #57FF29;\r\n$yellow: #E8DF6D;\r\n$red: #FF2957;\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    background-color: $background-darker;\r\n    color: $text;\r\n    font-family: articulat-cf, sans-serif;\r\n    font-weight: 600;\r\n    font-style: normal;\r\n    width: 100%;\r\n    margin: auto;\r\n}\r\n\r\n// ------------------------------ Fonts ------------------------------\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4 {\r\n    color: $header;\r\n    font-family: articulat-cf, sans-serif;\r\n    font-weight: 700;\r\n    font-style: normal;\r\n}\r\n\r\np {\r\n    color: $text;\r\n}\r\n\r\nli {\r\n    color: $blue;\r\n    text-transform: uppercase;\r\n    cursor: pointer;\r\n}\r\n\r\n// ------------------------------ Images ------------------------------\r\n\r\n.celery {\r\n    background: url(/src/assets/celery.png);\r\n}\r\n\r\n.gluten {\r\n    background: url(/src/assets/gluten.png);\r\n}\r\n\r\n.crustaceans {\r\n    background: url(/src/assets/crustaceans.png);\r\n}\r\n\r\n.eggs {\r\n    background: url(/src/assets/eggs.png);\r\n}\r\n\r\n.fish {\r\n    background: url(/src/assets/fish.png);\r\n}\r\n\r\n.lupin {\r\n    background: url(/src/assets/lupin.png);\r\n}\r\n\r\n.milk {\r\n    background: url(/src/assets/milk.png);\r\n}\r\n\r\n.mollusc {\r\n    background: url(/src/assets/mollusc.png);\r\n}\r\n\r\n.mustard {\r\n    background: url(/src/assets/mustard.png);\r\n}\r\n\r\n.nuts {\r\n    background: url(/src/assets/nuts.png);\r\n}\r\n\r\n.peanuts {\r\n    background: url(/src/assets/peanuts.png);\r\n}\r\n\r\n.sesame {\r\n    background: url(/src/assets/sesame.png);\r\n}\r\n\r\n.soya {\r\n    background: url(/src/assets/soya.png);\r\n}\r\n\r\n.sulphur {\r\n    background: url(/src/assets/sulphur.png);\r\n}\r\n\r\n.celery,\r\n.gluten,\r\n.crustaceans,\r\n.eggs,\r\n.fish,\r\n.lupin,\r\n.milk,\r\n.mollusc,\r\n.mustard,\r\n.nuts,\r\n.peanuts,\r\n.sesame,\r\n.soya,\r\n.sulphur {\r\n    background-size: contain;\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    height: 50px;\r\n    width: 50px;\r\n}\r\n\r\n// ------------------------------ Header ------------------------------\r\n\r\n.header,\r\n.title {\r\n    text-align: center;\r\n    margin-bottom: 5px;\r\n}\r\n\r\n.title {\r\n    text-transform: capitalize;\r\n}\r\n\r\n.fadedText {\r\n    color: $red;\r\n    text-transform: initial;\r\n    text-align: left;\r\n    margin-top: 25px;\r\n}\r\n\r\n.signing {\r\n    text-transform: capitalize;\r\n    text-align: left;\r\n    margin-top: 25px;\r\n}\r\n\r\n#download {\r\n    display: flex;\r\n    margin: auto;\r\n    background: $blue;\r\n    color: $background-white;\r\n    font-family: articulat-cf, sans-serif;\r\n    font-size: 1rem;\r\n    margin-top: 10px;\r\n    padding: 12px 24px 10px 24px;\r\n    border: none;\r\n    border-radius: 6px;\r\n    cursor: pointer;\r\n    transition: all 0.4s ease-in-out;\r\n\r\n    &:hover {\r\n        background: #577BFF;\r\n    }\r\n}\r\n\r\n// ------------------------------ Table ------------------------------\r\n\r\n#tablePDF {\r\n    margin: 5% 0 0 0;\r\n}\r\n\r\ntable {\r\n    background: $background-white;\r\n    border: 30px solid transparent;\r\n    border-radius: 12px;\r\n    font-family: articulat-cf, sans-serif;\r\n    border-collapse: collapse;\r\n    margin: auto;\r\n    margin-bottom: 25px;\r\n    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\ntr {\r\n    border: 5px solid transparent;\r\n    text-align: center;\r\n}\r\n\r\ntr:nth-child(even) {\r\n    background-color: $background-white;\r\n}\r\n\r\ntr:nth-child(odd) {\r\n    background-color: $background-main;\r\n}\r\n\r\n\r\ntr td:hover {\r\n    background: $background-darker;\r\n}\r\n\r\nth:nth-child(odd) {\r\n    background: $background-white;\r\n}\r\n\r\n.image {\r\n    background: $background-white;\r\n    height: 50px;\r\n    width: 50px;\r\n}\r\n\r\n.categoryName {\r\n    font-size: 0.6rem;\r\n    padding-bottom: 5px;\r\n}\r\n\r\ntd,\r\np {\r\n    text-transform: uppercase;\r\n    color: $text;\r\n    font-size: 0.7rem;\r\n}\r\n\r\n.titleTable {\r\n    text-transform: capitalize;\r\n    text-align: center;\r\n    width: 100%;\r\n}\r\n\r\n.itemName {\r\n    color: $blue;\r\n    padding: 5px;\r\n    width: 15vw;\r\n\r\n    input {\r\n        text-align: left;\r\n        width: 100%;\r\n        padding-left: 5px;\r\n        color: $text;\r\n        font-family: source-sans-pro, sans-serif;\r\n        font-size: 1rem;\r\n        font-weight: 500;\r\n        font-style: normal;\r\n        border: 1px solid transparent;\r\n        border-radius: 3px;\r\n        transition: all 0.4s ease-in-out;\r\n\r\n        &:hover {\r\n            background: $background-main;\r\n            border: 1px solid $blue;\r\n        }\r\n    }\r\n}\r\n\r\n// ------------------------------ Checkbox ------------------------------\r\n\r\n.container {\r\n    position: absolute;\r\n    font-size: 1.3rem;\r\n    width: 20px;\r\n    height: 20px;\r\n    cursor: pointer;\r\n    user-select: none;\r\n}\r\n\r\n.container input {\r\n    position: absolute;\r\n    opacity: 0;\r\n    cursor: pointer;\r\n    height: 0;\r\n    width: 0;\r\n}\r\n\r\n.checkmark {\r\n    position: absolute;\r\n    top: -10px;\r\n    left: -10px;\r\n    height: 20px;\r\n    width: 20px;\r\n    background-color: $background-white;\r\n    border: 1px solid $background-darker;\r\n    border-radius: 3px;\r\n    transition: all 0.4s ease-in-out;\r\n}\r\n\r\n.container input:checked~.checkmark {\r\n    background-color: $green;\r\n    border-radius: 3px;\r\n}\r\n\r\n.checkmark:after {\r\n    content: \"✔\";\r\n    color: $background-white;\r\n    font-size: 1rem;\r\n    position: absolute;\r\n    height: 20px;\r\n    left: 3px;\r\n    top: -3px;\r\n    display: none;\r\n    box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.25);\r\n}\r\n\r\n.container input:checked~.checkmark:after {\r\n    display: block;\r\n}\r\n\r\n::placeholder {\r\n    font-size: 1rem;\r\n    color: $text-faded;\r\n    opacity: 0.5;\r\n}\r\n\r\n.credits {\r\n    text-align: center;\r\n    margin: auto;\r\n\r\n    p {\r\n        font-size: 0.8rem;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -573,13 +599,143 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/logo.svg":
+/***/ "./src/assets/celery.png":
+/*!*******************************!*\
+  !*** ./src/assets/celery.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "celery.png";
+
+/***/ }),
+
+/***/ "./src/assets/crustaceans.png":
+/*!************************************!*\
+  !*** ./src/assets/crustaceans.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "crustaceans.png";
+
+/***/ }),
+
+/***/ "./src/assets/eggs.png":
 /*!*****************************!*\
-  !*** ./src/assets/logo.svg ***!
+  !*** ./src/assets/eggs.png ***!
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "logo.svg";
+module.exports = __webpack_require__.p + "eggs.png";
+
+/***/ }),
+
+/***/ "./src/assets/fish.png":
+/*!*****************************!*\
+  !*** ./src/assets/fish.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "fish.png";
+
+/***/ }),
+
+/***/ "./src/assets/gluten.png":
+/*!*******************************!*\
+  !*** ./src/assets/gluten.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "gluten.png";
+
+/***/ }),
+
+/***/ "./src/assets/lupin.png":
+/*!******************************!*\
+  !*** ./src/assets/lupin.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "lupin.png";
+
+/***/ }),
+
+/***/ "./src/assets/milk.png":
+/*!*****************************!*\
+  !*** ./src/assets/milk.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "milk.png";
+
+/***/ }),
+
+/***/ "./src/assets/mollusc.png":
+/*!********************************!*\
+  !*** ./src/assets/mollusc.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "mollusc.png";
+
+/***/ }),
+
+/***/ "./src/assets/mustard.png":
+/*!********************************!*\
+  !*** ./src/assets/mustard.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "mustard.png";
+
+/***/ }),
+
+/***/ "./src/assets/nuts.png":
+/*!*****************************!*\
+  !*** ./src/assets/nuts.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "nuts.png";
+
+/***/ }),
+
+/***/ "./src/assets/peanuts.png":
+/*!********************************!*\
+  !*** ./src/assets/peanuts.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "peanuts.png";
+
+/***/ }),
+
+/***/ "./src/assets/sesame.png":
+/*!*******************************!*\
+  !*** ./src/assets/sesame.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "sesame.png";
+
+/***/ }),
+
+/***/ "./src/assets/soya.png":
+/*!*****************************!*\
+  !*** ./src/assets/soya.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "soya.png";
+
+/***/ }),
+
+/***/ "./src/assets/sulphur.png":
+/*!********************************!*\
+  !*** ./src/assets/sulphur.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "sulphur.png";
 
 /***/ })
 
@@ -727,11 +883,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ "./styles/main.scss");
 
 
+document.getElementById('download').onclick = function () {
+    var element = document.getElementById('tablePDF')
 
+    var opt = {
+        margin: 0.05,
+        filename: 'tsunami_allergen_list.pdf',
+        image: {
+            type: 'svg | jpg | png',
+            quality: 5
+        },
+        html2canvas: {
+            scale: 5
+        },
+        jsPDF: {
+            unit: 'in',
+            format: 'letter',
+            orientation: 'landscape'
+        }
+    }
 
-console.log(123)
+    html2pdf().set(opt).from(element).save()
+}
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleb193c7adb4f5dc1c6ec4.js.map
+//# sourceMappingURL=bundle7485c1d8de77e39dcb91.js.map
